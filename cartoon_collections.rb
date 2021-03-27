@@ -17,9 +17,9 @@
 end
 
 soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
-def find_the_cheese(cheese)
+def find_the_cheese(soup)
   cheese_types = ["cheddar", "gouda", "camembert"]
-      cheese.any? do |item|
-      cheese_types.include?(cheese)
+      soup.any? do |item|
+      cheese_types.include?(soup)
   end
 end
